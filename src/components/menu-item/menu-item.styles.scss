@@ -12,12 +12,13 @@
     &:hover {
       cursor: pointer;
 
-      &.background-image {
+      .background-image {
         transform: scale(1.1);
-        transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+        opacity: 0.5;
+        transition: all 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
       }
 
-      &.content {
+      .content {
         transition: opacity 0.5s;
         opacity: 0.9;
       }
@@ -44,7 +45,7 @@
     }
   
     .content {
-      height: 90px;
+      // height: 90px;
       padding: 0 25px 25px 25px;
       display: flex;
       flex-direction: column;

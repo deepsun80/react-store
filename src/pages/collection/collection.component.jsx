@@ -9,8 +9,6 @@ const CollectionPage = ({ match }) => {
 
     const collection = collections[match.params.collectionId];
 
-    console.log(collection);
-
     return(
         <div className='collection-page'>
             <h2 className='title'>{collection.title}</h2>

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import { ReactComponent as Logo } from '../../assets/crown.svg';
+import { ReactComponent as Logo } from '../../assets/emerald.svg';
 import CartIcon from '../cart-icon/cart-icon.component';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 
@@ -13,11 +13,6 @@ const headerArray = [
         id: 0,
         title: 'SHOP',
         link: '/shop'    
-    },
-    {
-        id: 1,
-        title: 'CONTACT',
-        link: '/contact'    
     }
 ];
 
